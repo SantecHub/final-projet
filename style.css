@@ -1,0 +1,79 @@
+body{
+  background-image: url('assets/img/dataCenter3.jpg');
+  background-repeat: no-repeat;
+
+}
+
+.logo{
+    height: 60px;
+    margin: 30px;
+}
+ 
+.login{  
+        width: 300px;  
+       
+        margin: auto;  
+     
+     
+         
+          
+}  
+h1{
+    text-align: center;  
+    color: #e91616;  
+    margin-top: -2%;
+    font-size: 70px;  
+}
+h2{  
+    text-align: center;  
+    color: #ec4a4a;  
+    padding: 20px;
+    
+}  
+label{  
+    color: #a7dbf3;  
+    font-size: 20px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 150px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: rgb(53, 205, 243);
+    margin-left: 60px;
+    background-color: #ee4343;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+      
+}
+
+#log:hover {background-color: #3e8e41;
+}
+
+
+
+#log {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.7s;
+  }
+  

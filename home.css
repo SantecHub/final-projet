@@ -1,0 +1,50 @@
+body{
+    background-image: url('assets/img/dataCenter.jpg');
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar li {
+    color: #e91616;  
+    height: 60px;
+    margin: 40px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;  
+    color: #e91616;  
+    margin-top: 1%;
+    font-size: 40px;  
+}
+.logo{
+    height: 60px;
+    margin: 30px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  
+  .flex-container > div {
+    background-color: rgb(218, 19, 29);
+    color: white;
+    /* width: 350px; */
+    margin: 80px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .flex-container > div:hover {background-color: #3e8e41;
+    cursor: pointer;
+  }
+  
