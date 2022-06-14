@@ -1,10 +1,10 @@
 body{
-    background-image: url('assets/img/dataCenter.jpg');
+    background-image: url('assets/img/Datacenter5.jpg');
 }
 
 .logo{
-    height: 60px;
-    margin: 30px;
+    height: 50px;
+    margin: 20px;
 }
 .navbar{
     display: flex;
@@ -19,39 +19,85 @@ body{
     font-weight: bold;
     cursor: pointer;
 }
-/* input {
-    float:unset;
-    padding: 6px;
-    border: none;
-    /* margin: top 8px;; */
-    /* margin-right: 16px; */
-    /* font-size: 17px; */
-  /* } */
- 
-
-  
-input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 3px solid rgb(216, 76, 33);
-    float: left;
-    width: 50%;
-    background: #ad0b0baf;
-    align-items: center;
-    margin-left: 400px;
-    border-radius: 10px;
- 
-  }
 
 h1{
     text-align: center;  
     color: #e91616;  
-    margin-top: 1%;
+    margin-top: -5%;
     font-size: 70px;  
 }
-p{
+h2{
+    text-align: center;  
+    color: #e91616;  
+    margin-top: 1%;
+    font-size: 40px;  
+}
+.nav p{
     text-align: center;  
     color: #e91616;  
     margin-top: -4%;
     font-size: 50px;  
 }
+
+
+
+.myForm {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 0.8em;
+    width: 40em;
+    padding: 3em;
+    border: 1px solid #ccc;
+    background-color:rgba(197, 12, 83, 0.562);
+    margin-left: 400px;
+    border-radius: 15px;
+    }
+    
+  
+    .myForm label {
+    text-align: left;
+    display: block;
+    }
+    
+    .myForm input[type="text"],
+    .myForm input[type="tel"],
+    .myForm input[type="email"],
+    .myForm input[type="date"],
+    .myForm select,
+    .myForm textarea {
+    float: right;
+    width: 60%;
+    border: 1px solid #ccc;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 0.9em;
+    padding: 0.3em;
+    border-radius: 4px;
+    }
+    
+    .myForm textarea {
+    height: 100px;
+    }
+    
+    
+    
+    .myForm button {
+    padding: 1em;
+    border-radius: 0.5em;
+    background: #eee;
+    border: none;
+    font-weight: bold;
+    margin-left: 40%;
+    margin-top: 1.8em;
+    }
+    
+    .myForm button:hover {
+    background: #ccc;
+    cursor: pointer;
+    }
+    p{
+        color: rgb(36, 9, 44);
+        font-size: 15px;
+    }
+   
+    #message{
+        color:rosybrown
+    }
