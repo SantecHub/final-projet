@@ -20,18 +20,18 @@ body{
 }  
 h1{
     text-align: center;  
-    color:white;  
+    color: white;  
     margin-top: -2%;
     font-size: 70px;  
 }
 h2{  
     text-align: center;  
-    color: #f3e8e8;  
+    color: white;  
     padding: 20px;
     
 }  
 label{  
-    color: #a7dbf3;  
+    color: white;  
     font-size: 20px;  
 }  
 #Uname{  
