@@ -4,89 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Center Inventory</title>
+    <title>Device Decommision Request Form</title>
     <link rel="stylesheet" href="decommissionrst.css">
 </head>
 <body>
     <nav class="navbar">
         <img onclick="window.location.href = 'home.html';" class="logo" src="assets/img/sterlingLogo.png" alt="">
         <li onclick="window.location.href = 'login.html';">Log out</li>  </nav>
-        <!-- <h1>Electronic assets Management</h1> -->
-        <h2>Device Decommision Request Form</h2>
-
-        <form class="myForm">
-
-            <p>
-            <label>Name
-            <input type="text" name="customer_name" required>
-            </label> 
-            </p>
-            <p>
-            <label>Unit
-            <input type="text" name="unit_name" required>
-            </label> 
-            </p>
-            <p>
-            <label>Device Name
-            <input type="text" name="server_name" required>
-            </label> 
-            </p>
-            <p>
-            <label>Host Name
-            <input type="text" name="server_name" required>
-            </label> 
-            </p>
-            <p>
-            <label>Serial Number
-            <input type="text" name="server_name" required>
-            </label> 
-            </p>
-          
-            <p>
-            <label>Supervisor's email
-            <input type="email" name="email_address" required>
-            </label>
-            </p>
+       <!-- <h1>Electronic assets Management</h1> -->
+    <div class="wrapper">
+        <div class="inner">
+        <div class="image-holder">
+        <img src="assets/img/decommissioning.jpg" alt="image">
+        </div>
+        <form action="" id="form">
+        <h3>Device Decommision Request Form</h3>
+        <div class="form-group">
+        <input id="fistName" type="text" placeholder="First Name" class="form-control" required>
+        <input type="text" placeholder="Last Name" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Unit" class="form-control" required>
+            <input type="email" placeholder="Unit Head/Supervisor Name " class="form-control" required>
+            </div>
+            <hr>
             <br>
+           
+           
+                <div class="form-group">
+                    <input type="text" placeholder="Device Name" class="form-control" required>
+                    <input type="text" placeholder="Serial No." class="form-control" required>
+                    </div>
+        <div class="form-group">
+        <select name="" id="" class="form-control"style="width: 20ex;" required>
+        <option value="" disabled selected>Select Power Module</option>
+        <option value="single">Single Module</option>
+        <option value="Dual">Dual Module</option>
+        </select>
+        
+        <select  name="" id="" class="form-control" style="width: 20ex; margin-left: 8ex;" required >
+        <option  value="" style="width:2px;" >Select Location</option>
+        <option value="single">HQ</option>
+        <option value="Dual">DR</option>
+        </select>
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Host Name" class="form-control" required>
+           <p class="date"> <label>When
+                <input st type="date" name="comission_date" required>
+                </label><p>
+                    
+        </div>
 
-            <p>
-                <label>Power Module
-                <select id="feeds" name="feeds">
-                <option value="" selected="selected">Select Power Module</option>
-                <option value="single" >Single Module</option>
-                <option value="dual" >Dual Module</option>
-            </p>
-
-       
-            <p>
-            <label>When
-            <input type="date" name="comission_date" required>
-            </label>
-            </p>
-                
-                <br>
-            <p>
-            <label>Location
-            <select id="location" name="location">
-            <option value="" selected="selected">Select One</option>
-            <option value="dr" >DR</option>
-            <option value="hq" >HQ</option>
-            </select>
-            </label> 
-            </p>
-            
-                 <br>  
-            <p>
-            <label>comment
-            <textarea name="comments" maxlength="500"></textarea>
-            </label>
-            </p>
-            
-           <button type="submit" value="submit">Submit</button>
-           <p id="message"></p>
-
+        
+        <div class="comment">
+            <p><label>comment
+            <textarea name="comments" maxlength="500" style="width:368px ;height: 48px;"></textarea>
+            </label></p>
+        </div>
+        <button type="submit" >Submit         
+        </button>
+        <p id="log"></p>
         </form>
+        </div>
+        </div>
 
+        <p id="log"></p>
 
 <script src="commission.js"></script>
 </body>

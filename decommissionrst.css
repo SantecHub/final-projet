@@ -4,7 +4,8 @@ body{
 
 .logo{
     height: 50px;
-    margin: 20px;
+    margin: 10px;
+    cursor: pointer;
 }
 .navbar{
     display: flex;
@@ -12,8 +13,8 @@ body{
 }
 .navbar li {
     color: red;
-    height: 60px;
-    margin: 40px;
+    height: 10px;
+    margin: 20px;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
@@ -30,76 +31,173 @@ h1{
 h2{
     text-align: center;  
     color: #e91616;  
-    margin-top: -5%;
+    margin-top: -10%;
     font-size: 40px;  
 }
-.nav p{
-    text-align: center;  
-    color: #e91616;  
-    margin-top: -4%;
-    font-size: 50px;  
+     .date{
+        color: rgba(19, 15, 15, 0.842);
+        font-size: 12px;
+        font-weight: bold;
+        width: 70%;
+       border: none;
+       margin-left: 9em;
+       
+    
+        
+      
+    } 
+
+   
+
+    
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+   
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 13px;
+    margin: 0; 
+     
+}
+   
+  input, textarea, select, button , option{
+    font-family: arial;
+    color: #333;
+    font-size: 14px; }
+   
+  p, h1, h2, h3, h4, h5, h6, ul {
+    margin: 5px; }
+   
+  img {
+    max-width: 110%;
+    border-radius: 3px;
+    height: 103%;
+ }
+   
+  ul {
+    padding-left: 0;
+    margin-bottom: 0; }
+   
+  a:hover {
+    text-decoration: none; }
+   
+  :focus {
+    outline: none; }
+   
+  .wrapper {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center; }
+   
+  .inner{
+    border-radius: 15px;
+    padding: 30px;
+    background: rgb(255, 255, 255);
+    max-width: 800px;
+    margin: auto;
+    display: flex; }
+    .inner .image-holder {
+      width: 56%; }
+    .inner form {
+      width: 80%;
+      padding-top: 36px;
+      padding-left: 40px;
+      padding-right: 40px; }
+    .inner h3 {
+      text-transform: uppercase;
+      color: rgb(233, 25, 25);
+      font-size: 26px;
+      text-align: center;
+      margin-bottom: 28px; }
+   
+  .form-group {
+    display: flex; 
+}
+    .form-group input {
+      width: 50%; }
+      .form-group input:first-child {
+        margin-right: 25px; }
+   
+  .form-wrapper {
+    position: relative; }
+    .form-wrapper i {
+      position: absolute;
+      bottom: 9px;
+      right: 0;
+     }
+   
+  .form-control {
+    border: 1.5px solid #333;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 0;
+    margin-bottom: 25px; 
+   
 }
 
 
-
-.myForm {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 0.8em;
-    width: 40em;
-    padding: 3em;
-    border: 1px solid #ccc;
-    background-color:rgba(168, 12, 137, 0.308);
-    margin-left: 400px;
-    border-radius: 15px;
-    }
-    
-  
-    .myForm label {
-    text-align: left;
-    display: block;
-    }
-    
-    .myForm input[type="text"],
-    .myForm input[type="tel"],
-    .myForm input[type="email"],
-    .myForm input[type="date"],
-    .myForm select,
-    .myForm textarea {
-    float: right;
-    width: 60%;
-    border: 2px solid #ccc;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 0.9em;
-    padding: 0.2em;
-    border-radius: 4px;
-    }
-    
-    .myForm textarea {
-    height: 100px;
-    }
-    
-    
-    
-    .myForm button {
-    padding: 1em;
-    border-radius: 0.5em;
-    background: #eee;
-    border: none;
-    font-weight: bold;
-    margin-left: 40%;
-    margin-top: 1.8em;
-    }
-    
-    .myForm button:hover {
-    background: #ccc;
+    .form-control::-webkit-input-placeholder {
+      font-size: 14px;
+      color: rgb(59, 57, 57);
+      font-family: arial; }
+     
+  select {
+    font-size: 14px;
+    font-family: arial;
     cursor: pointer;
-    }
-    p{
-        color: rgba(19, 15, 15, 0.842);
-        font-size: 15px;
-        font-weight: bold;
-    }
+    padding-left: 20px; 
+    color: gray;
+}
+    select option[value=""][disabled] {
+      display:contents;  }
    
-    #message{
-        color:rgb(20, 183, 233)
-    }
+  button {
+    border: none;
+    width: 164px;
+    height: 51px;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: rgb(243, 9, 9);
+    font-size: 15px;
+    color: #fff;
+    border-radius: 5px;
+  }
+  button:hover{
+    background: or;
+  }
+   
+  @media (max-width: 767px) {
+    .inner {
+      display: block; }
+      .inner .image-holder {
+        width: 100%; }
+      .inner form {
+        width: 100%;
+        padding: 40px 0 30px; }
+   
+    button {
+      margin-top: 0px; } }
+  hr{
+    width: 114%;
+  }
+
+  #log{
+    color: rgb(64, 167, 43);
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
